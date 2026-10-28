@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Vipin Kumar Chandel – Full Stack &amp; Frontend Developer portfolio. B.Tech CSE student at PIEMR, experienced with React.js, Django REST Framework, WebSockets, and real-time systems." />
+  <title>Vipin Kumar Chandel | Full Stack &amp; Frontend Developer</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===================== SKIP LINK ===================== -->
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header class="navbar" id="navbar" role="banner">
+    <div class="navbar__inner">
+      <a class="navbar__logo" href="#hero" aria-label="Vipin Kumar Chandel – home">VKC</a>
+
+      <nav class="navbar__nav" id="primary-nav" aria-label="Primary navigation">
+        <ul class="navbar__list" role="list">
+          <li><a class="navbar__link" href="#about">About</a></li>
+          <li><a class="navbar__link" href="#skills">Skills</a></li>
+          <li><a class="navbar__link" href="#projects">Projects</a></li>
+          <li><a class="navbar__link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button
+        class="navbar__toggle"
+        id="nav-toggle"
+        aria-controls="primary-nav"
+        aria-expanded="false"
+        aria-label="Open navigation menu"
+      >
+        <span class="hamburger" aria-hidden="true"></span>
+        <span class="hamburger" aria-hidden="true"></span>
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===================== MAIN ===================== -->
+  <main id="main-content">
+
+    <!-- HERO -->
+    <section class="hero" id="hero" aria-label="Introduction">
+      <div class="hero__bg-grid" aria-hidden="true"></div>
+      <div class="container hero__content">
+        <p class="hero__greeting">Hello, I'm</p>
+        <h1 class="hero__name">Vipin Kumar Chandel</h1>
+        <p class="hero__role">
+          <span class="hero__role-prefix">A passionate</span>
+          <span class="hero__role-text" id="typed-role" aria-label="Frontend Developer"></span>
+          <span class="hero__cursor" aria-hidden="true">|</span>
+        </p>
+        <p class="hero__tagline">
+          Computer Science undergraduate building high-performance web applications, responsive user interfaces, and real-time systems with React.js, Django, and WebSockets.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#projects">View My Work</a>
+          <a class="btn btn--outline" href="#contact">Get In Touch</a>
+        </div>
+        <div class="hero__scroll-hint" aria-hidden="true">
+          <span class="scroll-dot"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <h2 class="section__title" id="about-heading">About Me</h2>
+        <div class="section__divider" aria-hidden="true"></div>
+        <div class="about__grid">
+          <div class="about__avatar-wrap" aria-hidden="true">
+            <div class="about__avatar">
+              <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                <circle cx="60" cy="45" r="24" fill="#14b8a6" opacity="0.25"/>
+                <circle cx="60" cy="45" r="18" fill="#14b8a6" opacity="0.5"/>
+                <ellipse cx="60" cy="105" rx="38" ry="22" fill="#14b8a6" opacity="0.2"/>
+                <ellipse cx="60" cy="102" rx="28" ry="16" fill="#14b8a6" opacity="0.4"/>
+              </svg>
+            </div>
+          </div>
+          <div class="about__body">
+            <h3 class="about__subtitle">Who am I?</h3>
+            <p class="about__para">
+              I am <strong>Vipin Kumar Chandel</strong>, a Computer Science &amp; Engineering undergraduate at
+              <strong>Prestige Institute of Engineering Management and Research (PIEMR), Indore</strong> (CGPA: 7.92 / 10 | SGPA: 8.75).
+              I have 6 months of hands-on project experience building and supporting scalable web applications.
+            </p>
+            <p class="about__para">
+              Currently completing my <strong>Full Stack Development Internship at CodeOrbit Tech</strong>,
+              I specialize in crafting intuitive user interfaces with <strong>React.js</strong> and integrating reliable backends with
+              <strong>Django REST Framework</strong>, <strong>MySQL</strong>, and <strong>WebSockets</strong> for real-time interactivity.
+            </p>
+            <p class="about__para">
+              I also serve as the <strong>Web Admin for DevHub Club at PIEMR</strong>, managing and maintaining the club's web presence.
+              My focus is delivering user-centric, accessible, and clean software solutions.
+            </p>
+
+            <ul class="about__details" aria-label="Quick facts">
+              <li>
+                <span class="about__detail-label">Degree</span>
+                <span class="about__detail-value">B.Tech – CSE, PIEMR Indore (2023–2027)</span>
+              </li>
+              <li>
+                <span class="about__detail-label">Internship</span>
+                <span class="about__detail-value">Full Stack Developer – CodeOrbit Tech</span>
+              </li>
+              <li>
+                <span class="about__detail-label">Location</span>
+                <span class="about__detail-value">Indore, Madhya Pradesh, India</span>
+              </li>
+              <li>
+                <span class="about__detail-label">Availability</span>
+                <span class="about__detail-value">Open to Full-Time &amp; Internship Roles</span>
+              </li>
+              <li>
+                <span class="about__detail-label">Email</span>
+                <span class="about__detail-value">vipinchandel2003@gmail.com</span>
+              </li>
+              <li>
+                <span class="about__detail-label">Phone</span>
+                <span class="about__detail-value">+91-7509858483</span>
+              </li>
+            </ul>
+
+            <!-- Key Honors & Achievements -->
+            <div class="about__achievements">
+              <h4 class="about__achievements-title">Achievements &amp; Honors</h4>
+              <div class="achievement-badges">
+                <div class="achievement-badge">
+                  <span class="achievement-badge__icon" aria-hidden="true">🥇</span>
+                  <div>
+                    <strong>1st Place Winner – Hackathon</strong>
+                    <p>Medi-Caps University</p>
+                  </div>
+                </div>
+                <div class="achievement-badge">
+                  <span class="achievement-badge__icon" aria-hidden="true">🏆</span>
+                  <div>
+                    <strong>1st Rank – Project Exhibition</strong>
+                    <p>Urjotsav 2K26 (MedGrid Care)</p>
+                  </div>
+                </div>
+                <div class="achievement-badge">
+                  <span class="achievement-badge__icon" aria-hidden="true">📜</span>
+                  <div>
+                    <strong>NPTEL Certified (IIT Madras &amp; IIT Kharagpur)</strong>
+                    <p>Python for Data Science &amp; Programming in Java</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="about__action-row">
+              <a class="btn btn--primary" href="mailto:vipinchandel2003@gmail.com?subject=Resume%20Request%20-%20Vipin%20Kumar%20Chandel"
+                 aria-label="Request Vipin's resume via email">
+                Request Resume
+              </a>
+              <a class="btn btn--outline" href="#contact">
+                Contact Me
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section skills" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <h2 class="section__title" id="skills-heading">Technical Skills</h2>
+        <div class="section__divider" aria-hidden="true"></div>
+        <p class="section__subtitle">Technologies, frameworks, and tools from hands-on project experience</p>
+
+        <div class="skills__grid">
+
+          <div class="skill-card" data-aos="fade-up">
+            <h3 class="skill-card__title">
+              <span class="skill-card__icon" aria-hidden="true">🎨</span> Frontend Development
+            </h3>
+            <ul class="skill-card__list" role="list">
+              <li class="skill-tag">HTML5</li>
+              <li class="skill-tag">CSS3</li>
+              <li class="skill-tag">JavaScript (ES6+)</li>
+              <li class="skill-tag">React.js</li>
+              <li class="skill-tag">Responsive UI</li>
+              <li class="skill-tag">Role-Based Dashboards</li>
+            </ul>
+          </div>
+
+          <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="skill-card__title">
+              <span class="skill-card__icon" aria-hidden="true">⚙️</span> Backend &amp; APIs
+            </h3>
+            <ul class="skill-card__list" role="list">
+              <li class="skill-tag">Django</li>
+              <li class="skill-tag">Django REST Framework (DRF)</li>
+              <li class="skill-tag">RESTful APIs</li>
+              <li class="skill-tag">Node.js</li>
+              <li class="skill-tag">Express.js</li>
+              <li class="skill-tag">JWT Authentication</li>
+            </ul>
+          </div>
+
+          <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="skill-card__title">
+              <span class="skill-card__icon" aria-hidden="true">🗄️</span> Languages &amp; Databases
+            </h3>
+            <ul class="skill-card__list" role="list">
+              <li class="skill-tag">C++</li>
+              <li class="skill-tag">Java</li>
+              <li class="skill-tag">Python</li>
+              <li class="skill-tag">SQL</li>
+              <li class="skill-tag">MySQL</li>
+              <li class="skill-tag">MongoDB</li>
+            </ul>
+          </div>
+
+          <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+            <h3 class="skill-card__title">
+              <span class="skill-card__icon" aria-hidden="true">⚡</span> Real-Time &amp; DevOps
+            </h3>
+            <ul class="skill-card__list" role="list">
+              <li class="skill-tag">WebSockets</li>
+              <li class="skill-tag">Django Channels</li>
+              <li class="skill-tag">Redis</li>
+              <li class="skill-tag">Git &amp; GitHub</li>
+              <li class="skill-tag">OOP &amp; DSA</li>
+              <li class="skill-tag">Debugging &amp; Testing</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section projects" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <h2 class="section__title" id="projects-heading">Featured Projects</h2>
+        <div class="section__divider" aria-hidden="true"></div>
+        <p class="section__subtitle">Real-world applications built with React.js, Django, and modern web architectures</p>
+
+        <div class="projects__grid">
+
+          <!-- Project 1: MedGrid Care -->
+          <article class="project-card" aria-label="MedGrid Care project">
+            <div class="project-card__header">
+              <span class="project-card__icon" aria-hidden="true">🏥</span>
+              <div class="project-card__links">
+                <a href="https://github.com/vipinchandel2003" class="project-card__link" target="_blank" rel="noopener noreferrer"
+                   aria-label="MedGrid Care GitHub repository (opens in new tab)" title="View on GitHub">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+                </a>
+              </div>
+            </div>
+            <div class="project-card__award" role="note">
+              🏆 1st Rank – Project Exhibition, Urjotsav 2K26
+            </div>
+            <h3 class="project-card__title">MedGrid Care</h3>
+            <p class="project-card__meta">Real-Time Centralized Healthcare Resource Sharing &amp; Hospital Management</p>
+            <p class="project-card__desc">
+              Developed and presented a centralized healthcare solution designed for real-time resource coordination,
+              hospital workflow management, and minimizing emergency-care delays during the vital golden hour.
+              Recognized with 1st rank at Urjotsav 2K26 and showcased at Engineering@Prestige Exhibition.
+            </p>
+            <ul class="project-card__tags" aria-label="Technologies used">
+              <li class="tag">React.js</li>
+              <li class="tag">Django REST</li>
+              <li class="tag">WebSockets</li>
+              <li class="tag">Redis</li>
+              <li class="tag">MySQL</li>
+            </ul>
+          </article>
+
+          <!-- Project 2: Smart District Hospital Queue Management System -->
+          <article class="project-card" aria-label="Smart District Hospital Queue Management System">
+            <div class="project-card__header">
+              <span class="project-card__icon" aria-hidden="true">⏱️</span>
+              <div class="project-card__links">
+                <a href="https://github.com/vipinchandel2003" class="project-card__link" target="_blank" rel="noopener noreferrer"
+                   aria-label="Queue Management System on GitHub" title="View on GitHub">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+                </a>
+              </div>
+            </div>
+            <div class="project-card__award" role="note">
+              ⏱️ Real-Time Queue &amp; Token Tracking
+            </div>
+            <h3 class="project-card__title">Hospital Queue System</h3>
+            <p class="project-card__meta">Role: Frontend Development &amp; Research | Sep 2025–Dec 2025 (Team of 4)</p>
+            <p class="project-card__desc">
+              Contributed to a real-time hospital queue management system designed to reduce patient waiting times and provide transparent appointment queues. Implemented responsive React.js interfaces, JWT-authenticated role-based dashboards for patients and doctors, and live token updates using WebSockets, Django Channels, and Redis.
+            </p>
+            <ul class="project-card__tags" aria-label="Technologies used">
+              <li class="tag">React.js</li>
+              <li class="tag">Django REST</li>
+              <li class="tag">WebSockets</li>
+              <li class="tag">Django Channels</li>
+              <li class="tag">Redis</li>
+              <li class="tag">JWT</li>
+            </ul>
+          </article>
+
+          <!-- Project 3: On-Call Mechanic System -->
+          <article class="project-card" aria-label="On-Call Mechanic System">
+            <div class="project-card__header">
+              <span class="project-card__icon" aria-hidden="true">🚗</span>
+              <div class="project-card__links">
+                <a href="https://github.com/vipinchandel2003" class="project-card__link" target="_blank" rel="noopener noreferrer"
+                   aria-label="On-Call Mechanic System on GitHub" title="View on GitHub">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+                </a>
+              </div>
+            </div>
+            <div class="project-card__award" role="note">
+              📍 Location-Based Service Platform
+            </div>
+            <h3 class="project-card__title">On-Call Mechanic System</h3>
+            <p class="project-card__meta">Role: Frontend Development &amp; Research | Nov 2025–Dec 2025 (Team of 6)</p>
+            <p class="project-card__desc">
+              Contributed to a location-aware web platform designed to seamlessly connect users with nearby mechanics during roadside emergencies. Built frontend features with React.js, structured service-request flows, and integrated separate interactive dashboards for motorists and service providers with Django REST and MySQL.
+            </p>
+            <ul class="project-card__tags" aria-label="Technologies used">
+              <li class="tag">React.js</li>
+              <li class="tag">Django REST</li>
+              <li class="tag">MySQL</li>
+              <li class="tag">RESTful APIs</li>
+              <li class="tag">Location Services</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <h2 class="section__title" id="contact-heading">Contact</h2>
+        <div class="section__divider" aria-hidden="true"></div>
+        <p class="section__subtitle">Have an opportunity or project in mind? Let's connect.</p>
+
+        <div class="contact__grid">
+
+          <div class="contact__info">
+            <h3 class="contact__info-title">Get In Touch</h3>
+            <p class="contact__info-body">
+              I am actively seeking software development internships, full-time opportunities, and collaborative engineering projects. Reach out via email, phone, or connect on LinkedIn and GitHub.
+            </p>
+            <ul class="contact__channels" aria-label="Contact channels">
+              <li class="contact__channel">
+                <span class="contact__channel-icon" aria-hidden="true">📧</span>
+                <a href="mailto:vipinchandel2003@gmail.com" aria-label="Send email to vipinchandel2003@gmail.com">
+                  vipinchandel2003@gmail.com
+                </a>
+              </li>
+              <li class="contact__channel">
+                <span class="contact__channel-icon" aria-hidden="true">📞</span>
+                <a href="tel:+917509858483" aria-label="Call +91-7509858483">
+                  +91-7509858483
+                </a>
+              </li>
+              <li class="contact__channel">
+                <span class="contact__channel-icon" aria-hidden="true">📍</span>
+                <span>Indore, Madhya Pradesh, India</span>
+              </li>
+              <li class="contact__channel">
+                <span class="contact__channel-icon" aria-hidden="true">💼</span>
+                <a href="https://linkedin.com/in/vipin-kumar-chandel" target="_blank" rel="noopener noreferrer"
+                   aria-label="LinkedIn profile (opens in new tab)">linkedin.com/in/vipin-kumar-chandel</a>
+              </li>
+              <li class="contact__channel">
+                <span class="contact__channel-icon" aria-hidden="true">🐱</span>
+                <a href="https://github.com/vipinchandel2003" target="_blank" rel="noopener noreferrer"
+                   aria-label="GitHub profile (opens in new tab)">github.com/vipinchandel2003</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact__form-wrap">
+            <!-- IMPORTANT: This form does not send email without a backend.
+                 See README.md §4 – Contact Form for setup instructions. -->
+            <form
+              class="contact__form"
+              id="contact-form"
+              novalidate
+              aria-label="Contact form"
+            >
+              <div class="form-group">
+                <label class="form-label" for="cf-name">Name <span aria-hidden="true" class="required-star">*</span></label>
+                <input
+                  class="form-input"
+                  type="text"
+                  id="cf-name"
+                  name="name"
+                  autocomplete="name"
+                  required
+                  aria-required="true"
+                  aria-describedby="cf-name-err"
+                  placeholder="Your full name"
+                />
+                <span class="form-error" id="cf-name-err" role="alert" aria-live="polite"></span>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="cf-email">Email <span aria-hidden="true" class="required-star">*</span></label>
+                <input
+                  class="form-input"
+                  type="email"
+                  id="cf-email"
+                  name="email"
+                  autocomplete="email"
+                  required
+                  aria-required="true"
+                  aria-describedby="cf-email-err"
+                  placeholder="you@example.com"
+                />
+                <span class="form-error" id="cf-email-err" role="alert" aria-live="polite"></span>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="cf-subject">Subject</label>
+                <input
+                  class="form-input"
+                  type="text"
+                  id="cf-subject"
+                  name="subject"
+                  autocomplete="off"
+                  placeholder="How can I help you?"
+                />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="cf-message">Message <span aria-hidden="true" class="required-star">*</span></label>
+                <textarea
+                  class="form-input form-textarea"
+                  id="cf-message"
+                  name="message"
+                  rows="5"
+                  required
+                  aria-required="true"
+                  aria-describedby="cf-message-err"
+                  placeholder="Tell me about your project, internship, or opportunity…"
+                ></textarea>
+                <span class="form-error" id="cf-message-err" role="alert" aria-live="polite"></span>
+              </div>
+
+              <div class="form-notice" role="note">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                This form validates inputs client-side. To receive submitted emails directly, connect an endpoint like Formspree or EmailJS (see <strong>README</strong>).
+              </div>
+
+              <button class="btn btn--primary form-submit" type="submit">
+                Send Message
+              </button>
+
+              <div class="form-status" id="form-status" role="status" aria-live="polite" aria-atomic="true"></div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+      <p class="footer__copy">&copy; <span id="footer-year"></span> Vipin Kumar Chandel. All rights reserved.</p>
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <a class="footer__link" href="#about">About</a>
+        <a class="footer__link" href="#skills">Skills</a>
+        <a class="footer__link" href="#projects">Projects</a>
+        <a class="footer__link" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Scroll back to top" title="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
